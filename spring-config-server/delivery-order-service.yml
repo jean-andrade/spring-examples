@@ -21,7 +21,7 @@ spring:
         platform: postgresql
         url: jdbc:postgresql://localhost:5432/delivery
     jpa:
-        database-platform: org.hibernate.dialect.PostgreSQLDialect
+        database-platform: org.hibernate.dialect.PostgreSQL9Dialect
         generate-ddl: false
         hibernate:
             ddl-auto: create
